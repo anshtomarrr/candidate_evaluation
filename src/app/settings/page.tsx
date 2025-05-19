@@ -104,4 +104,4 @@ export default function SettingsPage() {
       </div>
     </div>
   );
-} 
+} // New feature added
