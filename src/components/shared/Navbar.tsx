@@ -346,3 +346,4 @@ const Navbar = () => {
 };
 
 export default Navbar;
+// New feature added
