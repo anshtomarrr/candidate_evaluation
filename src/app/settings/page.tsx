@@ -105,3 +105,4 @@ export default function SettingsPage() {
     </div>
   );
 } // New feature added
+// Version update
