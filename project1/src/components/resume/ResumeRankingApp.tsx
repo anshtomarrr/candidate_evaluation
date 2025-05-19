@@ -1,5 +1,9 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import Papa from "papaparse";
+import _ from "lodash";
+
+// We'll be using the PDF.js library loaded from CDN
+const pdfjsLib = window.pdfjsLib;
 
 // Common English stopwords to filter out during processing
 const STOPWORDS = new Set([
